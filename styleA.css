@@ -1,0 +1,53 @@
+*root {
+    --primary-color: var#08A6E4;
+    --primary-shadow-color: rgba(7, 172, 230, .16);
+    --Red-accent: var(--Red-accent)(color-redish) 832cb31f-c0e4-4c7c-8cfd-8120400cc2;
+    --green-accent: var((color-green) #55DFB4);
+    --black-color: var(Black (color-black) #000000);
+    --grey-color: var(Grey (color-grey) #A5A5A5);
+    --grey-light-color: var(Light grey (color-light-grey) #F7F7F7);
+    --white-color: var(White (color-white) #FFFFFF);
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+    --container-width: 1352px;
+}
+
+.body {
+    font-family: var(--font-open-sans), var(--font-raleway);
+    background-color:var(--white-color);
+}
+
+.container-header {
+    box-sizing: inline-block;
+    display: inline-flex;
+    width: var(--container-width), 100%;
+    max-height: 70px;
+    background-color: var(--white-color), padding-box;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-style: var(--primary-shadow-color);
+    border-bottom: 2p
+
+}
+
+.logo {
+    display: inline-block;
+    width: 142px;
+    height: 37px;
+    padding-top: 17px;
+    padding-left: 137px;
+    padding-bottom: 16px;
+    color:var(--primary-color);
+    font:var(--raleway) 32px;
+    align-items:right;
+    justify-content:baseline;
+}
+
+.menu-navig {
+    display:inline-block;
+    align-items:space-between;
+
+
+}
